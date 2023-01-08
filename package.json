@@ -51,7 +51,12 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0",
     "prettier": "2.8.2",
-    "source-map-explorer": "^2.5.3"
+    "source-map-explorer": "^2.5.3",
+    "stylelint": "^14.16.1",
+    "stylelint-config-prettier": "^9.0.4",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-prettier": "^2.0.0"
   },
   "lint-staged": {
     "*.{js,css,md,ts,tsx}": "prettier --write"
