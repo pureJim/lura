@@ -4,7 +4,7 @@ const apiUrl = process.env.REACT_APP_API_URL;
 
 const LoginForm = () => {
   const login = (params: { username: string; password: string }) => {
-    fetch(`${apiUrl}/login`, {
+    fetch(`${apiUrl}/register`, {
       method: 'POST',
       headers: {
         'Content-type': 'application/json',
@@ -34,7 +34,7 @@ const LoginForm = () => {
         <label htmlFor='password'>密码</label>
         <input type='text' id='password' />
       </div>
-      <button type='submit'>登陆</button>
+      <button type='submit'>注册</button>
     </form>
   );
 };
