@@ -1,4 +1,4 @@
-import LoginForm from 'views/login';
+import LoginForm from '@/views/login';
 
 function App() {
   return (
